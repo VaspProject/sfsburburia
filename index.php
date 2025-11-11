@@ -102,13 +102,14 @@ include 'master/header.php';
             .popup-content {
                 width: 95%; 
                 padding: 10px;
+                right: -23px;
             }
             .popup-video {
                 max-height: 60vh;
             }
             .close-btn {
                 top: -8px;
-                right: -8px;
+                right: 36px;
                 width: 20px;
                 height: 20px;
                 font-size: 14px;
@@ -427,22 +428,138 @@ include 'master/header.php';
   </div>
 </div>
 
-<section class="upcoming-events">
+<!-- <section class="upcoming-events">
     <div class="title-container">
         <h1 class="section-title1">Upcoming Events and Information</h1>
+        
     </div>
-    <!-- <div class="event-container">
+    <div class="event-container">
+       
         <div class="event-card">
-            <div class="event-title">First Term Evaluation of Academic Year 2025-2026</div>
-            <div class="event-date"><i class="far fa-calendar"></i> 05-07-2025 to 15-07-2025</div>
+            <div class="event-title">Second Term Evaluation of Academic Year 2025-2026</div>
+            <div class="event-date"><i class="far fa-calendar"></i>   06-12-2025 to 16-12-2026</div> 
         </div>
         <div class="event-card">
-            <div class="event-title">First Term Evaluation Result</div>
-            <div class="event-date"><i class="far fa-calendar"></i> 18-07-2025 at 8:00AM</div>
+            <div class="event-title">Second Term Evaluation Result </div>
+            <div class="event-date"><i class="far fa-calendar"></i>   19-12-2026 at 8:00 AM</div> 
         </div>
-    </div> -->
+    </div>
+</section> -->
+
+<section class="notice-section">
+  <div class="notice-track">
+    <span class="notice-heading">
+      <i class="fas fa-bullhorn" style="margin-top:7px; padding-right:10px;"></i>
+      Upcoming Notice and Events
+    </span>
+
+    <span class="notice-event"><i class="far fa-calendar-alt"></i> Second Term Evaluation of Academic Year 2025-2026 — 06-12-2025 to 16-12-2026</span>
+
+    <span class="notice-event"><i class="far fa-calendar-check"></i> Second Term Evaluation Result — 19-12-2026 at 8:00 AM</span>
+
+    <!-- 🔁 Duplicate content for perfect continuous loop -->
+    <span class="notice-heading">
+      <i class="fas fa-bullhorn" style="margin-top:7px; padding-right:10px;"></i>
+      Upcoming Notice and Events
+    </span>
+
+    <span class="notice-event"><i class="far fa-calendar-alt"></i> Second Term Evaluation of Academic Year 2025-2026 — 06-12-2025 to 16-12-2026</span>
+
+    <span class="notice-event"><i class="far fa-calendar-check"></i> Second Term Evaluation Result — 19-12-2026 at 8:00 AM</span>
+  </div>
 </section>
 
+<style>
+/* 🔸 Section Base */
+.notice-section {
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+  color: #fff;
+  padding: 12px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 🔸 Continuous Track */
+.notice-track {
+  display: inline-flex;
+  gap: 50px;
+  animation: scrollContinuous 12s linear infinite; /* ⏩ Speed controlled here */
+}
+
+/* 🔸 Continuous loop animation (no empty gaps) */
+@keyframes scrollContinuous {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* 🔸 Heading Style */
+.notice-heading {
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px 22px;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-right: 20px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.notice-heading i {
+  margin-right: 10px;
+}
+
+/* 🔸 Event Style */
+.notice-event {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 2.2rem;
+  margin-top: 20px;
+}
+
+.notice-event i {
+  margin-right: 8px;
+  color: #fff;
+}
+
+/* 🔸 Pause on Hover */
+.notice-section:hover .notice-track {
+  animation-play-state: paused;
+}
+
+/* 🔸 Responsive */
+@media (max-width: 768px) {
+  .notice-heading {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+  }
+  .notice-event {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .notice-heading {
+    font-size: 1rem;
+    padding: 8px 10px;
+  }
+  .notice-heading i {
+    margin-top: 2px !important;
+  }
+  .notice-event {
+    font-size: 1rem;
+    margin-top: 9px;
+    margin-left:  -53px;
+
+  }
+}
+</style>
+
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
 <style>
 .upcoming-events {
     padding: 40px 20px;
@@ -473,16 +590,17 @@ include 'master/header.php';
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    animation: marquee 15s linear infinite;
 }
 
 .event-card {
-    width: 547px;
+    width: 568px;
     padding: 12px;
-    background: #2125290a;
+    background: linear-gradient(to bottom right, #516c8933, #021323);
     border-radius: 15px;
     box-shadow: 0 8px 16px #111111a3;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    /* border: 7px solid #007bffad; */
+    border: 1px solid #ffffff47;
 }
 
 .event-card:hover {
@@ -493,13 +611,13 @@ include 'master/header.php';
 .event-title {
     font-size: 1.4rem;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .event-date {
     font-size: 1.1rem;
-    color: white;
+    color: #09cccc;
 }
 
 @keyframes marquee {
@@ -513,6 +631,10 @@ include 'master/header.php';
 
 /* Pause animation on hover */
 .title-container:hover .section-title1 {
+    animation-play-state: paused;
+}
+
+.event-container:hover  {
     animation-play-state: paused;
 }
 
@@ -554,7 +676,7 @@ include 'master/header.php';
           excellence, we aspire to shape future leaders who will inspire change and serve the world with integrity and wisdom. We believe that 
           true education goes beyond textbooks, nurturing character, creativity, and a deep sense of responsibility. By fostering a love for 
           learning and a spirit of service, we prepare our students to become thoughtful citizens and lifelong learners who contribute 
-          meaningfully to society.Together, we strive to create an environment where every child feels seen, supported, and inspired to shine
+          meaningfully to society.Together, we strive to create an environment where every child feels seen, supported, and inspired to shine.
           </p>
           <!-- <div class="row row-cols-2 row-cols-md-3 g-3 justify-content-center mt-4" style="gap:0.5rem;">
             <div class="col">

@@ -13,13 +13,22 @@ include 'master/header.php';
         </div>
         <div class="event-card">
             <div class="event-title">First Term Evaluation Result</div>
-            <div class="event-date"><i class="far fa-calendar"></i>   18-07-2025 at 8:00AM</div> 
-
+            <div class="event-date"><i class="far fa-calendar"></i>   18-07-2025 at 8:00 AM</div> 
         </div>
-    </section>
+        <div class="event-card">
+            <div class="event-title">Second Term Evaluation of Academic Year 2025-2026</div>
+            <div class="event-date"><i class="far fa-calendar"></i>   06-12-2025 to 16-12-2026</div> 
+        </div>
+        <div class="event-card">
+            <div class="event-title">Second Term Evaluation Result </div>
+            <div class="event-date"><i class="far fa-calendar"></i>  19-12-2026 at 8:00 AM</div> 
+        </div>
 
 
-    <style>
+</section>
+
+
+<style>
         body {
             font-family: Arial, sans-serif;
             background: linear-gradient(to bottom, #063461a8, #2c012026), url(images/newimg/schlbuilding2.jpeg) center / cover no-repeat;
@@ -33,7 +42,7 @@ include 'master/header.php';
             padding: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             width: 80%;
-            max-width: 630px;
+            max-width: 651px;
             margin: 87px auto;
             text-align: center;
         }
@@ -72,7 +81,7 @@ include 'master/header.php';
         }
         .event-date {
             font-size: 1em;
-            color: white;
+            color: #09cccc;
         }
     </style>
 
