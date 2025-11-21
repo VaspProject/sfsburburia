@@ -352,7 +352,7 @@ include('master/header.php');
             </div>
 
             <!-- album 21 -->
-            <div class="folder-item" onclick="openFolder('Teacher\'s Day Celebration 2025-26 ', [
+            <div class="folder-item" onclick="openFolder('Teachers\' Day Celebration 2025-26 ', [
                 'images/Amarpurphotos1/TEACHERS-DAY-2025-26/1.jpg',
                 'images/Amarpurphotos1/TEACHERS-DAY-2025-26/2.jpg',
                 'images/Amarpurphotos1/TEACHERS-DAY-2025-26/3.jpg',
@@ -361,7 +361,51 @@ include('master/header.php');
                 ])">
                 <img src="images/Amarpurphotos1/amrapur8.jpg" alt="SFS Investiture 2025-26">
                 <div class="event-name">2025-2026</div>    
-                <div class="event-name">Teacher's Day Celebration </div>
+                <div class="event-name">Teachers' Day Celebration </div>
+            </div>
+            <div class="folder-item" onclick="openFolder('Study Picnic 2025-2026 ', [
+                
+                'images/STUDY-PICNIC-2025-2026/2.jpg',
+                'images/STUDY-PICNIC-2025-2026/3.jpg',
+                'images/STUDY-PICNIC-2025-2026/4.jpg',
+                'images/STUDY-PICNIC-2025-2026/5.jpg',
+                'images/STUDY-PICNIC-2025-2026/6.jpg',
+                'images/STUDY-PICNIC-2025-2026/7.jpg',
+                'images/STUDY-PICNIC-2025-2026/8.jpg',
+                'images/STUDY-PICNIC-2025-2026/9.jpg'
+                ])">
+                <img src="images/cover/study-point-cover.jpg" alt="SFS Investiture 2025-26">
+                <div class="event-name">2025-2026</div>    
+                <div class="event-name">Study Picnic </div>
+            </div>
+            <div class="folder-item" onclick="openFolder('SFS Teachers\' Training 2025-2026 ', [
+                'images/SFS-TEACHERS-TRAINING-2025-2026/1.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/2.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/3.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/4.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/5.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/6.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/7.jpg',
+               
+                'images/SFS-TEACHERS-TRAINING-2025-2026/9.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/10.jpg',
+                'images/SFS-TEACHERS-TRAINING-2025-2026/11.jpg'
+
+                ])">
+                <img src="images/cover/teachers-training-25.jpg" alt="SFS Investiture 2025-26">
+                <div class="event-name">2025-2026</div>    
+                <div class="event-name">SFS Teachers' Training </div>
+            </div>
+            <div class="folder-item" onclick="openFolder('Children\'s Day 2025-2026 ', [
+                'images/CHILDRENS-DAY-2025-2026/1.jpg',
+                'images/CHILDRENS-DAY-2025-2026/2.jpg',
+                'images/CHILDRENS-DAY-2025-2026/3.jpg',
+                'images/CHILDRENS-DAY-2025-2026/4.jpg',
+                'images/CHILDRENS-DAY-2025-2026/IMG_0797.webp'
+                ])">
+                <img src="images/cover/chidren-day-25-n.jpg" alt="SFS Investiture 2025-26">
+                <div class="event-name">2025-2026</div>    
+                <div class="event-name">Children's Day 2025-2026  </div>
             </div>
         </div>
     </div>
