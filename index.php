@@ -453,9 +453,9 @@ include 'master/header.php';
       Upcoming Notice and Events
     </span>
 
-    <span class="notice-event"><i class="far fa-calendar-alt"></i> Second Term Evaluation of Academic Year 2025-2026 — 06-12-2025 to 16-12-2026</span>
+    <span class="notice-event"><i class="far fa-calendar-alt"></i> Second Term Evaluation of Academic Year 2025-2026 — 06-12-2025 to 16-12-2025</span>
 
-    <span class="notice-event"><i class="far fa-calendar-check"></i> Second Term Evaluation Result — 19-12-2026 at 8:00 AM</span>
+    <span class="notice-event"><i class="far fa-calendar-check"></i> Second Term Evaluation Result — 19-12-2025 at 8:00 AM</span>
 
     <!-- 🔁 Duplicate content for perfect continuous loop -->
     <span class="notice-heading">
